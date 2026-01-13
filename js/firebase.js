@@ -1,5 +1,6 @@
 // COLE AQUI SUAS CHAVES DO FIREBASE
-firebase.initializeApp({apiKey: "AIzaSyBAHGI0APt5lulVEO3QlX2HqTmvIi6R3hI",
+firebase.initializeApp({
+  apiKey: "AIzaSyBAHGI0APt5lulVEO3QlX2HqTmvIi6R3hI",
   authDomain: "eric-cycles-2020.firebaseapp.com",
   projectId: "eric-cycles-2020",
   storageBucket: "eric-cycles-2020.firebasestorage.app",
