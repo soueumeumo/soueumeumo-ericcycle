@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8">
+<title>Nova OS</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><img src="assets/logo.png" class="logo-sm">Nova OS</header>
+<div class="card">
+<input id="modelo" placeholder="Modelo">
+<input id="placa" placeholder="Placa">
+<input id="km" placeholder="KM">
+<input id="ano" placeholder="Ano">
+<input id="cor" placeholder="Cor">
+<textarea id="servicos" placeholder="Serviços a executar"></textarea>
+<button onclick="criarOS()">Criar OS</button>
+</div>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+<script src="js/firebase.js"></script>
+<script src="js/os.js"></script>
+</body></html>

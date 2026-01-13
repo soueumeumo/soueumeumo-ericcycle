@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checklist</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><img src="assets/logo.png" class="logo-sm">Checklist de Entrada</header>
+
+<div class="card">
+<input id="modelo" placeholder="Modelo">
+<input id="placa" placeholder="Placa">
+<input id="km" placeholder="KM">
+<input id="ano" placeholder="Ano">
+<input id="cor" placeholder="Cor">
+</div>
+
+<div class="card">
+<textarea id="servicos" placeholder="Serviços a executar"></textarea>
+<textarea id="erros" placeholder="Códigos de erro"></textarea>
+<select id="combustivel">
+<option>Vazio</option><option>1/4</option><option>1/2</option>
+<option>3/4</option><option>Cheio</option>
+</select>
+</div>
+
+<div class="card">
+<textarea id="obs" placeholder="Observações"></textarea>
+<input id="fotos" type="file" multiple accept="image/*">
+</div>
+
+<button onclick="salvarChecklist()">Salvar Checklist</button>
+
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-storage-compat.js"></script>
+<script src="js/firebase.js"></script>
+<script src="js/checklist.js"></script>
+</body></html>
